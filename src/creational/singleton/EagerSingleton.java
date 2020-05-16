@@ -1,4 +1,4 @@
-
+package creational.singleton;
 public class EagerSingleton {
 
 	private static final EagerSingleton instance = new EagerSingleton();

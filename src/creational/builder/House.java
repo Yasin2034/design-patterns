@@ -1,4 +1,4 @@
-package pattern;
+package creational.builder;
 
 public class House {
 	private int numBedrooms;

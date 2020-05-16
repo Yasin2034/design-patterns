@@ -1,4 +1,4 @@
-
+package creational.singleton;
 public class StaticBlockSingleton {
 
 	private static StaticBlockSingleton instance;

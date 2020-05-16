@@ -1,3 +1,4 @@
+package creational.factory;
 
 public class MotorCycle implements IVehicle{
 

@@ -1,4 +1,4 @@
-
+package creational.singleton;
 public class LazySingleton {
 
 	private static LazySingleton instance;

@@ -1,3 +1,4 @@
+package creational.singleton;
 
 public class DoubleCheckedLockingSingleton {
 
