@@ -2,10 +2,16 @@ package creational.factory;
 
 public class VehicleFactory {
 
-	public static IVehicle produceVehicle(String type) {
-		if(type.equalsIgnoreCase("Car")) return new Car();
-		else if(type.equalsIgnoreCase("Truck")) return new Truck();
-		else if(type.equalsIgnoreCase("MotorCycle")) return new MotorCycle();
-		return null;
+	public static IVehicle produceVehicle(VehicleType type) {
+		switch (type) {
+		case CAR:
+			return new Car();
+		case TRUCK:
+			return new Truck();
+		case MOTORCYCLE:
+			return new MotorCycle();
+		default:
+			return null;
+		}
 	}
 }
