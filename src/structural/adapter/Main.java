@@ -9,7 +9,7 @@ public class Main {
 		
 		
 		
-		logger = new LoggerYAdapter(new LoggerY());
+		logger = new LoggerAdapter(new LoggerY());
 		logger.log();
 
 	}

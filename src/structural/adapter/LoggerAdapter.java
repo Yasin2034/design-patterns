@@ -1,10 +1,10 @@
 package structural.adapter;
 
-public class LoggerYAdapter implements ILogger {
+public class LoggerAdapter implements ILogger {
 
 	LoggerY loggerY;
 	
-	public LoggerYAdapter(LoggerY logger) {
+	public LoggerAdapter(LoggerY logger) {
 		this.loggerY = logger;
 	}
 	
