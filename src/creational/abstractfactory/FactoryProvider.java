@@ -9,7 +9,7 @@ public class FactoryProvider {
 		case TURKISH:
 			return new TurkishCountryFactory();
 		default:
-			return null;
+			throw new IllegalArgumentException();
 		}
 	}
 }

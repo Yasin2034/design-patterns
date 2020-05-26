@@ -11,7 +11,7 @@ public class VehicleFactory {
 		case MOTORCYCLE:
 			return new MotorCycle();
 		default:
-			return null;
+			throw new IllegalArgumentException();
 		}
 	}
 }
